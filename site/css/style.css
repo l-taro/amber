@@ -279,7 +279,7 @@ body {
   .header_cart:before {
     content: '';
     display: block;
-    background: url(/site/images/cart.png) center center no-repeat;
+    background: url(./site/images/cart.png) center center no-repeat;
     height: 28px;
     width: 32px;
     position: absolute;
