@@ -223,7 +223,8 @@ h3 {
 .header {
   position: fixed;
   width: 100%;
-  height: 120px;
+  height: 80px;
+  padding-top: 5px;
   left: 0 ;
   top: 0;
   z-index: 100;
@@ -231,7 +232,7 @@ h3 {
   background: #ffffff;
 }
 body {
-  padding-top: 120px;
+  padding-top: 85px;
 }
 .header .center.flex-block {
   align-items: center;
@@ -240,8 +241,6 @@ body {
 
 .header__logo_image {
   width: 270px;
-  height: 100px;
-  line-height: 100px;
   text-align: center; }
   .header__logo_image img {
     max-height: 100px;
@@ -304,6 +303,9 @@ body {
 
 .header__contacts {
   margin-bottom: 7px; }
+  .header__contacts .phones {
+    padding-top: 5px;
+  }
   .header__contacts .phones a {
     color: #000000;
     font-size: 24px;
@@ -1918,7 +1920,7 @@ textarea {
     position: fixed;
     top: 8px;
     right: 160px;
-    background: url(../site/images/lupa.png) center center no-repeat;
+    background: url(../images/lupa.png) center center no-repeat;
     background-size: 16px auto;
     display: block;
     border-radius: 50px;
