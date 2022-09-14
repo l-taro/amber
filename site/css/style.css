@@ -56,8 +56,8 @@ table {
   --light-500: #cbffe3; }
 
 .color-blue-dark {
-  --main-500: #195bbd;
-  --light-500: #8cbafc; }
+    --main-500: #e37a01;
+    --light-500: #fdb84d; }
 
 .color-light {
   color: var(--light-500); }
